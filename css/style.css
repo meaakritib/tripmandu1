@@ -1,0 +1,136 @@
+.bg1 {
+  font-size: 14px;
+  line-height: 22px;
+  background: #2B83C5;
+}
+
+.list {
+  list-style: none;
+  display: inline !important;
+}
+
+.circle-icon {
+  background: #ffffff;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px white solid;
+  text-align: center;
+  line-height: 22px;
+  position: relative;
+  top: -10px;
+}
+.circle-icon .inside {
+  position: absolute;
+  left: 1px;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.circle-icon:hover {
+  background: #246289;
+  color: rgb(255, 255, 255);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bg2 {
+  background: #246289;
+  line-height: 45px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: white;
+  padding: 10px 20px;
+}
+.abc, .navbar-nav .nav-link.active, .navbar-expand-lg .navbar-nav .nav-link:hover {
+  background: #FAD405;
+  color: white;
+}
+
+.mtext {
+  margin-bottom: 170px !important;
+}
+
+.logo {
+  width: 189px;
+  height: 165px;
+  position: absolute;
+  z-index: 999;
+  border: 2px solid #FAD405;
+  margin-left: 90px;
+}
+
+.logo1 {
+  width: 189px;
+  height: 165px;
+  border: 2px solid #FAD405;
+}
+
+.input1 {
+  width: 800px;
+  position: absolute;
+  z-index: 998;
+  bottom: 20px;
+  left: 300px;
+}
+
+.smallcontainer {
+  max-width: 1080px;
+  margin: auto;
+  padding: 0 50px;
+}
+
+footer {
+  background: #1B1B1B;
+  color: #fff;
+}
+footer ul {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+footer ul li {
+  line-height: 50px;
+}
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.col {
+  background: #246289;
+  color: #fff;
+  padding: 0;
+}
+
+.img {
+  height: 450px;
+}
+
+.imgt {
+  color: #1B1B1B;
+  background-color: rgba(250, 213, 5, 0.3764705882);
+  border: 2px solid #003048;
+}
+
+.card-img-top {
+  height: 180px;
+}
+
+.card {
+  margin: 30px;
+  padding: 0%;
+}
+
+.cont {
+  background-color: rgba(255, 242, 168, 0.6784313725);
+}/*# sourceMappingURL=style.css.map */
